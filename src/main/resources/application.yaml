@@ -1,0 +1,12 @@
+spring.application.name: caseLab_test_project
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5433/habrdb
+    username: maevgal
+    password: 12345
+    driverClassName: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
