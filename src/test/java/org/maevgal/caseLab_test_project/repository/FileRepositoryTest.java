@@ -5,12 +5,14 @@ import org.junit.jupiter.api.Test;
 import org.maevgal.caseLab_test_project.model.File;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.test.context.ActiveProfiles;
 
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.util.UUID;
 
 @DataJpaTest
+@ActiveProfiles("test")
 class FileRepositoryTest {
     @Autowired
     FileRepository fileRepository;
