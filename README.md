@@ -114,7 +114,17 @@ Response
 </pre>
 
 ### Инструкция по запуску приложения
-Склонировать репозиторий
+
+1. Склонировать репозиторий:
+<pre>
+git clone git@github.com:Maevgal/CaseLab_Test_Project.git
+</pre>
+2. Для запуска проекта необходима утилита Gradle.
+Сбилдить проект:
+<pre>
+gradle build
+</pre>
+3. 
 Выполнить команду:
 <pre>
 sudo docker compose up
